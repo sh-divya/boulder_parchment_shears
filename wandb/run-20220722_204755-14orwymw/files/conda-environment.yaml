@@ -1,4 +1,0 @@
-name: cgcnn
-channels:
-  - defaults
-prefix: /home/minion/anaconda3/envs/cgcnn/envs/cgcnn
