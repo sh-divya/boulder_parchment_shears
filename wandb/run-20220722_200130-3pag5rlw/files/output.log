@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 103, in <module>
+    run(config)
+  File "train.py", line 80, in run
+    vloss, vacc = evaluate(valloader)
+TypeError: evaluate() missing 1 required positional argument: 'loader'

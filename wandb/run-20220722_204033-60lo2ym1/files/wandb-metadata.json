@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-07-23T00:40:34.996652",
+    "startedAt": "2022-07-23T00:40:33.652126",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": "10.2.89",
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "git@github.com:sh-divya/boulder_parchment_shears.git",
+        "commit": "535d4b7a07c4e12e287de2f705a04381f77f26e0"
+    },
+    "email": "dsharm23@jh.edu",
+    "root": "/home/minion/Documents/boulder_parchment_shears",
+    "host": "Caesar",
+    "username": "minion",
+    "executable": "/home/minion/anaconda3/envs/cgcnn/bin/python"
+}

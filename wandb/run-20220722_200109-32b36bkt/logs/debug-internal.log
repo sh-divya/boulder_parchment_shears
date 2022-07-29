@@ -1,0 +1,142 @@
+2022-07-22 20:01:09,637 INFO    MainThread:51557 [internal.py:wandb_internal():90] W&B internal server running at pid: 51557, started at: 2022-07-22 20:01:09.637624
+2022-07-22 20:01:09,638 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: check_version
+2022-07-22 20:01:09,639 INFO    WriterThread:51557 [datastore.py:open_for_write():77] open: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/run-32b36bkt.wandb
+2022-07-22 20:01:09,640 DEBUG   SenderThread:51557 [sender.py:send():238] send: header
+2022-07-22 20:01:09,640 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: check_version
+2022-07-22 20:01:09,685 DEBUG   SenderThread:51557 [sender.py:send():238] send: run
+2022-07-22 20:01:09,854 INFO    SenderThread:51557 [dir_watcher.py:__init__():169] watching files in: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files
+2022-07-22 20:01:09,855 INFO    SenderThread:51557 [sender.py:_start_run_threads():828] run started: 32b36bkt with start time 1658534469
+2022-07-22 20:01:09,856 DEBUG   SenderThread:51557 [sender.py:send():238] send: summary
+2022-07-22 20:01:09,857 INFO    SenderThread:51557 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2022-07-22 20:01:09,861 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: run_start
+2022-07-22 20:01:10,476 DEBUG   HandlerThread:51557 [meta.py:__init__():40] meta init
+2022-07-22 20:01:10,476 DEBUG   HandlerThread:51557 [meta.py:__init__():54] meta init done
+2022-07-22 20:01:10,476 DEBUG   HandlerThread:51557 [meta.py:probe():214] probe
+2022-07-22 20:01:10,482 DEBUG   HandlerThread:51557 [meta.py:_setup_git():204] setup git
+2022-07-22 20:01:10,493 DEBUG   HandlerThread:51557 [meta.py:_setup_git():211] setup git done
+2022-07-22 20:01:10,493 DEBUG   HandlerThread:51557 [meta.py:_save_pip():58] save pip
+2022-07-22 20:01:10,494 DEBUG   HandlerThread:51557 [meta.py:_save_pip():72] save pip done
+2022-07-22 20:01:10,494 DEBUG   HandlerThread:51557 [meta.py:_save_conda():79] save conda
+2022-07-22 20:01:10,855 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_created():217] file/dir created: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/conda-environment.yaml
+2022-07-22 20:01:10,856 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_created():217] file/dir created: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/requirements.txt
+2022-07-22 20:01:10,856 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_created():217] file/dir created: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-summary.json
+2022-07-22 20:01:10,966 DEBUG   HandlerThread:51557 [meta.py:_save_conda():89] save conda done
+2022-07-22 20:01:10,966 DEBUG   HandlerThread:51557 [meta.py:probe():252] probe done
+2022-07-22 20:01:10,980 DEBUG   SenderThread:51557 [sender.py:send():238] send: files
+2022-07-22 20:01:10,980 INFO    SenderThread:51557 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2022-07-22 20:01:10,984 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: stop_status
+2022-07-22 20:01:10,985 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: stop_status
+2022-07-22 20:01:11,058 DEBUG   SenderThread:51557 [sender.py:send():238] send: run
+2022-07-22 20:01:11,164 INFO    SenderThread:51557 [sender.py:send_run():723] updated run: 32b36bkt
+2022-07-22 20:01:11,327 INFO    Thread-11 :51557 [upload_job.py:push():137] Uploaded file /tmp/tmp4m_66havwandb/2lqe69j8-wandb-metadata.json
+2022-07-22 20:01:11,856 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/conda-environment.yaml
+2022-07-22 20:01:11,856 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/config.yaml
+2022-07-22 20:01:11,857 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_created():217] file/dir created: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-metadata.json
+2022-07-22 20:01:11,857 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_created():217] file/dir created: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/output.log
+2022-07-22 20:01:13,494 DEBUG   SenderThread:51557 [sender.py:send():238] send: telemetry
+2022-07-22 20:01:13,495 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:13,496 DEBUG   SenderThread:51557 [sender.py:send():238] send: exit
+2022-07-22 20:01:13,496 INFO    SenderThread:51557 [sender.py:send_exit():370] handling exit code: 1
+2022-07-22 20:01:13,497 INFO    SenderThread:51557 [sender.py:send_exit():372] handling runtime: 3
+2022-07-22 20:01:13,498 INFO    SenderThread:51557 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2022-07-22 20:01:13,498 INFO    SenderThread:51557 [sender.py:send_exit():382] send defer
+2022-07-22 20:01:13,499 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:13,500 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,500 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 0
+2022-07-22 20:01:13,501 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,501 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 0
+2022-07-22 20:01:13,501 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 1
+2022-07-22 20:01:13,502 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,502 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 1
+2022-07-22 20:01:13,525 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,525 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 1
+2022-07-22 20:01:13,525 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 2
+2022-07-22 20:01:13,525 DEBUG   SenderThread:51557 [sender.py:send():238] send: stats
+2022-07-22 20:01:13,525 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,525 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 2
+2022-07-22 20:01:13,525 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,525 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 2
+2022-07-22 20:01:13,525 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 3
+2022-07-22 20:01:13,526 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,526 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 3
+2022-07-22 20:01:13,526 DEBUG   SenderThread:51557 [sender.py:send():238] send: summary
+2022-07-22 20:01:13,526 INFO    SenderThread:51557 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2022-07-22 20:01:13,526 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,526 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 3
+2022-07-22 20:01:13,526 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 4
+2022-07-22 20:01:13,527 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,527 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 4
+2022-07-22 20:01:13,527 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,527 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 4
+2022-07-22 20:01:13,602 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:13,646 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 5
+2022-07-22 20:01:13,647 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:13,648 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,648 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 5
+2022-07-22 20:01:13,649 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,649 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 5
+2022-07-22 20:01:13,649 INFO    SenderThread:51557 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-07-22 20:01:13,750 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:13,857 INFO    Thread-8  :51557 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/output.log
+2022-07-22 20:01:13,858 INFO    SenderThread:51557 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-summary.json
+2022-07-22 20:01:13,859 INFO    SenderThread:51557 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/config.yaml
+2022-07-22 20:01:13,860 INFO    SenderThread:51557 [dir_watcher.py:finish():313] scan: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files
+2022-07-22 20:01:13,860 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-metadata.json wandb-metadata.json
+2022-07-22 20:01:13,860 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/requirements.txt requirements.txt
+2022-07-22 20:01:13,861 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-summary.json wandb-summary.json
+2022-07-22 20:01:13,867 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/conda-environment.yaml conda-environment.yaml
+2022-07-22 20:01:13,873 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/config.yaml config.yaml
+2022-07-22 20:01:13,873 INFO    SenderThread:51557 [dir_watcher.py:finish():327] scan save: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/output.log output.log
+2022-07-22 20:01:13,881 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 6
+2022-07-22 20:01:13,882 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:13,889 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:13,889 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 6
+2022-07-22 20:01:13,891 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:13,892 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 6
+2022-07-22 20:01:13,892 INFO    SenderThread:51557 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-22 20:01:13,985 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:13,985 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,089 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,089 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,193 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,193 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,259 INFO    Thread-13 :51557 [upload_job.py:push():137] Uploaded file /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/wandb-summary.json
+2022-07-22 20:01:14,265 INFO    Thread-16 :51557 [upload_job.py:push():137] Uploaded file /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/output.log
+2022-07-22 20:01:14,269 INFO    Thread-12 :51557 [upload_job.py:push():137] Uploaded file /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/requirements.txt
+2022-07-22 20:01:14,287 INFO    Thread-14 :51557 [upload_job.py:push():137] Uploaded file /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/conda-environment.yaml
+2022-07-22 20:01:14,291 INFO    Thread-15 :51557 [upload_job.py:push():137] Uploaded file /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/files/config.yaml
+2022-07-22 20:01:14,296 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,296 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,398 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,398 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,491 INFO    Thread-7  :51557 [sender.py:transition_state():395] send defer: 7
+2022-07-22 20:01:14,493 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:14,493 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 7
+2022-07-22 20:01:14,493 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:14,494 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 7
+2022-07-22 20:01:14,501 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,837 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 8
+2022-07-22 20:01:14,837 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,839 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:14,839 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 8
+2022-07-22 20:01:14,839 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:14,839 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 8
+2022-07-22 20:01:14,840 INFO    SenderThread:51557 [sender.py:transition_state():395] send defer: 9
+2022-07-22 20:01:14,842 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: defer
+2022-07-22 20:01:14,842 INFO    HandlerThread:51557 [handler.py:handle_request_defer():147] handle defer: 9
+2022-07-22 20:01:14,843 DEBUG   SenderThread:51557 [sender.py:send():238] send: final
+2022-07-22 20:01:14,843 DEBUG   SenderThread:51557 [sender.py:send():238] send: footer
+2022-07-22 20:01:14,843 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: defer
+2022-07-22 20:01:14,843 INFO    SenderThread:51557 [sender.py:send_request_defer():391] handle sender defer: 9
+2022-07-22 20:01:14,940 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: poll_exit
+2022-07-22 20:01:14,941 DEBUG   SenderThread:51557 [sender.py:send_request():252] send_request: poll_exit
+2022-07-22 20:01:14,941 INFO    SenderThread:51557 [file_pusher.py:join():182] waiting for file pusher
+2022-07-22 20:01:15,130 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: get_summary
+2022-07-22 20:01:15,132 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: sampled_history
+2022-07-22 20:01:15,134 DEBUG   HandlerThread:51557 [handler.py:handle_request():130] handle_request: shutdown
+2022-07-22 20:01:15,135 INFO    HandlerThread:51557 [handler.py:finish():731] shutting down handler
+2022-07-22 20:01:15,843 INFO    WriterThread:51557 [datastore.py:close():281] close: /home/minion/Documents/boulder_parchment_shears/wandb/run-20220722_200109-32b36bkt/run-32b36bkt.wandb
+2022-07-22 20:01:16,128 INFO    SenderThread:51557 [sender.py:finish():1091] shutting down sender
+2022-07-22 20:01:16,128 INFO    SenderThread:51557 [file_pusher.py:finish():177] shutting down file pusher
+2022-07-22 20:01:16,128 INFO    SenderThread:51557 [file_pusher.py:join():182] waiting for file pusher
+2022-07-22 20:01:16,132 INFO    MainThread:51557 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 103, in <module>
+    run(config)
+  File "train.py", line 63, in run
+    ).to(device)
+NameError: name 'device' is not defined
